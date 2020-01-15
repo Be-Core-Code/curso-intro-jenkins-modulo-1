@@ -4,6 +4,7 @@
 
 * [Introducción](/#introduction)
 * [Instalación](/#instalation)
+* [El panel](/#the_dashboard)
 
 notes:
 
