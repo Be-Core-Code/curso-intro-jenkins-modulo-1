@@ -9,7 +9,7 @@
 Para ver las diapositivas:
 
 ```bash
-> docker run --rm -p "8001:8001" becorecode/curso-intro-jenkins-modulo-1:latest
+> docker run --rm -p "8000:8000" becorecode/curso-intro-jenkins-modulo-1:latest
 ```
 
 Una vez levantado el contenedor, accede con un navegador web a `http://localhost:8001`
