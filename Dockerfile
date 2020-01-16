@@ -1,4 +1,4 @@
-FROM hub.docker.com/becorecode/revealjs:3.8.0
+FROM becorecode/revealjs:3.8.0
 
 LABEL com.becorecode.author="Alfonso Alba García"
 LABEL com.becorecode.author_email="hola@becorecode.com"
