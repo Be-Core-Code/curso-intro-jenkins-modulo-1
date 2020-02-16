@@ -12,7 +12,7 @@ Para ver las diapositivas:
 > docker run --rm -p "8000:8000" becorecode/curso-intro-jenkins-modulo-1:latest
 ```
 
-Una vez levantado el contenedor, accede con un navegador web a `http://localhost:8001`
+Una vez levantado el contenedor, accede con un navegador web a `http://localhost:8000`
 
 ## Navegación
 
@@ -22,9 +22,9 @@ Las diapositivas están desarrolladas usando [reveal.js](https://revealjs.com/#/
 * Accede a una visión global de todas las diapositivas del módulo usando la tecla `ESC`
 * Navega por las diapositivas usando las flechas ⬆➡⬇⬅
 * Para imprimirlas:
-  * Accede a la URL `http://localhost:8010/?print-pdf`
+  * Accede a la URL `http://localhost:8000/?print-pdf`
   * Imprime la página 
-  * Si deseas añadir las notas del presentador utiliza la URL  `http://localhost:8010/?print-pdf&showNotes=true`
+  * Si deseas añadir las notas del presentador utiliza la URL  `http://localhost:8000/?print-pdf&showNotes=true`
 
 ## Desarrollo
 
@@ -50,7 +50,7 @@ Finalmente, levantamos el contenedor:
 > docker-compose up
 ```
 
-Puedes acceder a las diapositivas en `localhost:8010`. Haz los cambios que necesites en las diapositovas situadas en la carpeta
+Puedes acceder a las diapositivas en `localhost:8001`. Haz los cambios que necesites en las diapositovas situadas en la carpeta
 `slides/` y recarga el navegador para ver el resultado.
 
 Si quieres cambiar el puerto, puedes detener los servicios con `docker-compose down`, editar el fichero 
