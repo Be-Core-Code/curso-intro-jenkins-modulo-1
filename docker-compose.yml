@@ -3,7 +3,7 @@ services:
   node:
     stdin_open: true
     tty: true
-    image: hub.docker.com/becorecode/revealjs:3.8.0
+    image: becorecode/revealjs:3.8.0
     environment:
       - TZ=Europe/Madrid
       - NODE_OPTIONS=--no-warnings
